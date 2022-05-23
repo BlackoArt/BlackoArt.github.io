@@ -19,21 +19,6 @@ html {
     padding-left: 10px;
 }
 
-#body {
-    position: absolute;
-    top: 10%;
-    left: 0;
-    right: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: "lato", sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
-}
-
 .img-content {
     display: flex;
     justify-content: space-around;
@@ -44,6 +29,15 @@ html {
     width: 25%;
     border-radius: 10px;
     box-shadow: 0 0 20px 10px rgb(65, 143, 173);
+}
+
+.copyright {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 12px;
 }
 
 /* 星星开始 */
